@@ -1,0 +1,26 @@
+{
+  "name": "rule34",
+  "version": "1.0.0",
+  "description": "Returns rule34 of programming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKRhere/rule34.git"
+  },
+  "keywords": [
+    "rule34",
+    "npm"
+  ],
+  "author": "Muthu Kumar (https://mkr.pw)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MKRhere/rule34/issues"
+  },
+  "homepage": "https://github.com/MKRhere/rule34#readme",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
+}
