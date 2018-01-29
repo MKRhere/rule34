@@ -11,6 +11,24 @@ If it exists, it's on npm.
 
 `npm install rule34`
 
+## Test
+Because this project is very complex we made tests to ensure everything is working correctly!
+
+Run all tests
+```bash
+npm test
+```
+
+Run unit tests with test coverage (report in reports/coverage/index.html)
+```bash
+npm run mocha
+```
+
+Run mutation tests (report in reports/mutation/html/index.html)
+```bash
+npm run stryker
+```
+
 ## API
 
 ```Javascript
