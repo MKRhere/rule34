@@ -4,8 +4,9 @@
   "description": "Returns rule34 of programming.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "mocha": "nyc --reporter=html --report-dir=reports/coverage --check-coverage --lines 85 --functions 90 --branches 65 mocha test.js"
+    "test": "npm run mocha && npm run stryker",
+    "mocha": "nyc --reporter=html --report-dir=reports/coverage --check-coverage --lines 85 --functions 90 --branches 65 mocha test.js",
+    "stryker": "stryker run"
   },
   "repository": {
     "type": "git",
